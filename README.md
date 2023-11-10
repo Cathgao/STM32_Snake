@@ -3,7 +3,7 @@
 
 MCU：STM32F103C8T或STM32F030C8T
 
-显示屏：OLED 12864 IIC带中文字库
+显示屏：OLED 12864 SPI带中文字库
 
 输入：使用串口连接到xshell或替代终端，用WASD控制
 
