@@ -1,0 +1,40 @@
+SET PATH=d:\Keil_v5\ARM\ARMCLANG\Bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\Java\jre1.8.0_77\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files (x86)\HI-TECH Software\PICC\9.83\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;E:\5.11.2\msvc2015\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\wbem;C:\Program Files\Git\cmd;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Microchip\xc8\v2.40\bin;D:\Program Files (x86)\NetSarang\Xshell 7\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;X:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\lib;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin
+SET ARMCC6_ASMOPT=--diag_suppress=9931
+SET ARMCC6_CCOPT=--diag_suppress=9931
+SET ARMCC6_LINKOPT=--diag_suppress=9931
+SET CPU_TYPE=STM32F103R8
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=snake
+SET CPU_CLOCK=0x007A1200
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\startup_stm32f103xb._ac"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\printf.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\oled.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\main.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\gpio.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\dma.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\rtc.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\spi.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\tim.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\usart.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_it.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_msp.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_gpio_ex.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_rtc.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_rtc_ex.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_rcc.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_rcc_ex.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_gpio.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_dma.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_cortex.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_pwr.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_flash.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_flash_ex.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_exti.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_spi.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_tim.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_tim_ex.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\stm32f1xx_hal_uart.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"snake\system_stm32f1xx_1.__i"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\ArmLink" --Via "snake\snake.lnp"
+"d:\Keil_v5\ARM\ARMCLANG\Bin\fromelf.exe" "snake\snake.axf" --i32combined --output "snake\snake.hex"
